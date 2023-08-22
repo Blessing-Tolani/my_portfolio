@@ -1,18 +1,18 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
 
-import LoadingScreen from './components/loading-screen';
-import HomePage from './components/home';
+import LoadingScreen from './components/loading-screen'
+import HomePage from './components/home'
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2000);
-  }, []);
+    setTimeout(() => setLoading(false), 4000)
+  }, [])
 
   return (
-    <div className="App">{loading ? <LoadingScreen /> : <HomePage />}</div>
-  );
+    <div className="App dark">{loading ? <LoadingScreen /> : <HomePage />}</div>
+  )
 }
 
-export default App;
+export default App

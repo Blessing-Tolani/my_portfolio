@@ -2,17 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-
-  background-color: #161616;
-  color:white;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
 
 .round-ball {
   aspect-ratio: 1 / 1;
@@ -25,4 +14,17 @@
   -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
   outline: none !important;
+}
+
+/* .sun, .moon {
+  opacity: 1;
+  transform: scale(1) rotate(360deg);
+  transition: transform 2s ease-in, opacity 0.5s ease-in 0.5s;
+} */
+
+@layer base {
+
+  .dark {
+    @apply bg-primary-dark;
+  }
 }

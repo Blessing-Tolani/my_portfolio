@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         gray:'#A1A1A1',
-        'dark-gray': '#1E1E1E'
+        'dark-gray': '#1E1E1E',
+        'primary-dark': '#161616'
       },
       borderColor: {
         default: '#2e2e2e'
@@ -27,4 +28,5 @@ export default {
     },
   },
   plugins: [],
+  darkMode: "class"
 };
