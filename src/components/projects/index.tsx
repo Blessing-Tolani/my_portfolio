@@ -20,12 +20,14 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
         WORK
       </h1>
       <div className="mt-6 grid grid-cols-1 gap-8 md:grid-cols-2 lgMax:justify-between md:gap-5 w-full">
-        <div
+        <a
+          target="_blank"
+          href="https://vacation-lodges.netlify.app/"
           className={`${
             isDarkMode
               ? 'bg-dark-gray'
               : 'bg-neutral-100 shadow-lg text-primary-dark'
-          }  rounded-xl p-8  `}
+          }  rounded-xl p-8  group`}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
@@ -58,13 +60,15 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
               React + Typescript + Material UI + Tailwind
             </p>
           </div>
-        </div>
-        <div
+        </a>
+        <a
+          target="_blank"
+          href="https://wakapadi.io/"
           className={`${
             isDarkMode
               ? 'bg-dark-gray'
               : 'bg-neutral-100 shadow-lg text-primary-dark'
-          }  rounded-xl p-8  `}
+          }  rounded-xl p-8  group`}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
@@ -96,13 +100,15 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
               React + Typescript + Material UI + Tailwind
             </p>
           </div>
-        </div>
-        <div
+        </a>
+        <a
+          target="_blank"
+          href="https://smaimpactnetwork.netlify.app/"
           className={`${
             isDarkMode
               ? 'bg-dark-gray'
               : 'bg-neutral-100 shadow-lg text-primary-dark'
-          }  rounded-xl p-8  `}
+          }  rounded-xl p-8  group`}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
@@ -135,13 +141,15 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
               NextJS + GSAP Animations + Tailwind
             </p>
           </div>
-        </div>
-        <div
+        </a>
+        <a
+          target="_blank"
+          href="https://thebmwedding.netlify.app/"
           className={`${
             isDarkMode
               ? 'bg-dark-gray'
               : 'bg-neutral-100 shadow-lg text-primary-dark'
-          }  rounded-xl p-8  `}
+          }  rounded-xl p-8  group `}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
@@ -174,13 +182,15 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
               NextJS + Tailwind + GSAP + Headless UI
             </p>
           </div>
-        </div>
-        <div
+        </a>
+        <a
+          target="_blank"
+          href="https://awardies.netlify.app/"
           className={`${
             isDarkMode
               ? 'bg-dark-gray'
               : 'bg-neutral-100 shadow-lg text-primary-dark'
-          }  rounded-xl p-8  `}
+          }  rounded-xl p-8 group `}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
@@ -213,13 +223,15 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
               NextJS + Tailwind
             </p>
           </div>
-        </div>
-        <div
+        </a>
+        <a
+          target="_blank"
+          href="https://getarecipe.netlify.app/"
           className={`${
             isDarkMode
               ? 'bg-dark-gray'
               : 'bg-neutral-100 shadow-lg text-primary-dark'
-          }  rounded-xl p-8  `}
+          }  rounded-xl p-8 group `}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
@@ -252,13 +264,15 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
               Javascript + SCSS + GSAP Animations
             </p>
           </div>
-        </div>
-        <div
+        </a>
+        <a
+          target="_blank"
+          href="https://pvcubes.netlify.app/"
           className={`${
             isDarkMode
               ? 'bg-dark-gray'
               : 'bg-neutral-100 shadow-lg text-primary-dark'
-          }  rounded-xl p-8  `}
+          }  rounded-xl p-8 group `}
         >
           <div
             className="h-[16rem] rounded-xl w-full"
@@ -291,7 +305,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
               Javascript + SCSS + CSS Animations
             </p>
           </div>
-        </div>
+        </a>
       </div>
     </section>
   )
