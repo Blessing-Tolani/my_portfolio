@@ -1,11 +1,12 @@
-import Awardies from 'assets/images/awardies.png'
-import Airbnb from 'assets/images/airbnb-clone.png'
-import Cubes from 'assets/images/cubes.png'
-import BMWedding from 'assets/images/bm-wedding.png'
-import SMA from 'assets/images/sma.png'
-import Recipe from 'assets/images/recipe.png'
-import Wakapadi from 'assets/images/wakapadi.png'
-import { GoArrowUpRight } from 'react-icons/go'
+import Awardies from "assets/images/awardies.png"
+import Airbnb from "assets/images/airbnb-clone.png"
+import Cubes from "assets/images/cubes.png"
+import BMWedding from "assets/images/bm-wedding.png"
+import SMA from "assets/images/sma.png"
+import Recipe from "assets/images/recipe.png"
+import Berlin from "assets/images/berlin.png"
+import FanjaTravels from "assets/images/fanjaTravels.png"
+import { GoArrowUpRight } from "react-icons/go"
 
 export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
   return (
@@ -13,8 +14,8 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
       <h1
         className={`${
           isDarkMode
-            ? 'bg-primary-dark text-gray'
-            : 'bg-white text-primary-dark'
+            ? "bg-primary-dark text-gray"
+            : "bg-white text-primary-dark"
         } font-playfair  text-lg md:sticky md:-top-1 py-5 bg-[#161616] md:z-50  `}
       >
         WORK
@@ -25,17 +26,17 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
           href="https://vacation-lodges.netlify.app/"
           className={`${
             isDarkMode
-              ? 'bg-dark-gray'
-              : 'bg-neutral-100 shadow-lg text-primary-dark'
+              ? "bg-dark-gray"
+              : "bg-neutral-100 shadow-lg text-primary-dark"
           }  rounded-xl p-8  group`}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
             style={{
               backgroundImage: `url(${Airbnb})`,
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
             }}
           ></div>
           <div>
@@ -45,7 +46,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
                 target="_blank"
                 href="https://vacation-lodges.netlify.app/"
                 className={`${
-                  isDarkMode ? '' : 'font-medium '
+                  isDarkMode ? "" : "font-medium "
                 }  flex items-center text-sm text-gray space-x-1 group `}
               >
                 <span>View project</span>
@@ -54,7 +55,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
             </div>
             <p
               className={`${
-                isDarkMode ? 'text-white' : ' text-primary-dark'
+                isDarkMode ? "text-white" : " text-primary-dark"
               }  text-sm  font-medium `}
             >
               React + Typescript + Material UI + Tailwind
@@ -63,29 +64,29 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
         </a>
         <a
           target="_blank"
-          href="https://wakapadi.io/"
+          href="https://magnificent-rabanadas-4a5afb.netlify.app/"
           className={`${
             isDarkMode
-              ? 'bg-dark-gray'
-              : 'bg-neutral-100 shadow-lg text-primary-dark'
+              ? "bg-dark-gray"
+              : "bg-neutral-100 shadow-lg text-primary-dark"
           }  rounded-xl p-8  group`}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
             style={{
-              backgroundImage: `url(${Wakapadi})`,
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
+              backgroundImage: `url(${FanjaTravels})`,
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
             }}
           ></div>
           <div>
             <div className="flex items-center justify-between font-dm-sans py-3">
-              <p className="font-bold">Wakapadi</p>
+              <p className="font-bold">Fanja Travels</p>
               <a
                 target="_blank"
-                href="https://wakapadi.io/"
+                href="https://magnificent-rabanadas-4a5afb.netlify.app/"
                 className={`${
-                  isDarkMode ? '' : 'font-medium '
+                  isDarkMode ? "" : "font-medium "
                 }  flex items-center text-sm text-gray space-x-1 group `}
               >
                 <span>View project</span>
@@ -94,10 +95,10 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
             </div>
             <p
               className={`${
-                isDarkMode ? 'text-white' : ' text-primary-dark'
+                isDarkMode ? "text-white" : " text-primary-dark"
               }  text-sm  font-medium `}
             >
-              React + Typescript + Material UI + Tailwind
+              React + Typescript + Tailwind + NextJS
             </p>
           </div>
         </a>
@@ -106,17 +107,17 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
           href="https://smaimpactnetwork.netlify.app/"
           className={`${
             isDarkMode
-              ? 'bg-dark-gray'
-              : 'bg-neutral-100 shadow-lg text-primary-dark'
+              ? "bg-dark-gray"
+              : "bg-neutral-100 shadow-lg text-primary-dark"
           }  rounded-xl p-8  group`}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
             style={{
               backgroundImage: `url(${SMA})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           ></div>
           <div>
@@ -126,7 +127,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
                 target="_blank"
                 href="https://smaimpactnetwork.netlify.app/"
                 className={`${
-                  isDarkMode ? '' : 'font-medium '
+                  isDarkMode ? "" : "font-medium "
                 }  flex items-center text-sm text-gray space-x-1 group `}
               >
                 <span>View project</span>
@@ -135,7 +136,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
             </div>
             <p
               className={`${
-                isDarkMode ? 'text-white' : ' text-primary-dark'
+                isDarkMode ? "text-white" : " text-primary-dark"
               }  text-sm  font-medium `}
             >
               NextJS + GSAP Animations + Tailwind
@@ -147,17 +148,17 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
           href="https://thebmwedding.netlify.app/"
           className={`${
             isDarkMode
-              ? 'bg-dark-gray'
-              : 'bg-neutral-100 shadow-lg text-primary-dark'
+              ? "bg-dark-gray"
+              : "bg-neutral-100 shadow-lg text-primary-dark"
           }  rounded-xl p-8  group `}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
             style={{
               backgroundImage: `url(${BMWedding})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           ></div>
           <div>
@@ -167,7 +168,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
                 target="_blank"
                 href="https://thebmwedding.netlify.app/"
                 className={`${
-                  isDarkMode ? '' : 'font-medium '
+                  isDarkMode ? "" : "font-medium "
                 }  flex items-center text-sm text-gray space-x-1 group `}
               >
                 <span>View project</span>
@@ -176,7 +177,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
             </div>
             <p
               className={`${
-                isDarkMode ? 'text-white' : ' text-primary-dark'
+                isDarkMode ? "text-white" : " text-primary-dark"
               }  text-sm  font-medium `}
             >
               NextJS + Tailwind + GSAP + Headless UI
@@ -188,17 +189,17 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
           href="https://awardies.netlify.app/"
           className={`${
             isDarkMode
-              ? 'bg-dark-gray'
-              : 'bg-neutral-100 shadow-lg text-primary-dark'
+              ? "bg-dark-gray"
+              : "bg-neutral-100 shadow-lg text-primary-dark"
           }  rounded-xl p-8 group `}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
             style={{
               backgroundImage: `url(${Awardies})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           ></div>
           <div>
@@ -208,7 +209,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
                 target="_blank"
                 href="https://awardies.netlify.app/"
                 className={`${
-                  isDarkMode ? '' : 'font-medium '
+                  isDarkMode ? "" : "font-medium "
                 }  flex items-center text-sm text-gray space-x-1 group `}
               >
                 <span>View project</span>
@@ -217,7 +218,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
             </div>
             <p
               className={`${
-                isDarkMode ? 'text-white' : ' text-primary-dark'
+                isDarkMode ? "text-white" : " text-primary-dark"
               }  text-sm  font-medium `}
             >
               NextJS + Tailwind
@@ -229,17 +230,17 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
           href="https://getarecipe.netlify.app/"
           className={`${
             isDarkMode
-              ? 'bg-dark-gray'
-              : 'bg-neutral-100 shadow-lg text-primary-dark'
+              ? "bg-dark-gray"
+              : "bg-neutral-100 shadow-lg text-primary-dark"
           }  rounded-xl p-8 group `}
         >
           <div
             className="h-[18rem] md:h-[16rem] rounded-xl w-full"
             style={{
               backgroundImage: `url(${Recipe})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           ></div>
           <div>
@@ -249,7 +250,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
                 target="_blank"
                 href="https://getarecipe.netlify.app/"
                 className={`${
-                  isDarkMode ? '' : 'font-medium '
+                  isDarkMode ? "" : "font-medium "
                 }  flex items-center text-sm text-gray space-x-1 group `}
               >
                 <span>View project</span>
@@ -258,7 +259,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
             </div>
             <p
               className={`${
-                isDarkMode ? 'text-white' : ' text-primary-dark'
+                isDarkMode ? "text-white" : " text-primary-dark"
               }  text-sm  font-medium `}
             >
               Javascript + SCSS + GSAP Animations
@@ -270,17 +271,17 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
           href="https://pvcubes.netlify.app/"
           className={`${
             isDarkMode
-              ? 'bg-dark-gray'
-              : 'bg-neutral-100 shadow-lg text-primary-dark'
+              ? "bg-dark-gray"
+              : "bg-neutral-100 shadow-lg text-primary-dark"
           }  rounded-xl p-8 group `}
         >
           <div
             className="h-[16rem] rounded-xl w-full"
             style={{
               backgroundImage: `url(${Cubes})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           ></div>
           <div>
@@ -290,7 +291,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
                 target="_blank"
                 href="https://pvcubes.netlify.app/"
                 className={`${
-                  isDarkMode ? '' : 'font-medium '
+                  isDarkMode ? "" : "font-medium "
                 }  flex items-center text-sm text-gray space-x-1 group `}
               >
                 <span>View project</span>
@@ -299,7 +300,7 @@ export default function Projects({ isDarkMode }: { isDarkMode: boolean }) {
             </div>
             <p
               className={`${
-                isDarkMode ? 'text-white' : ' text-primary-dark'
+                isDarkMode ? "text-white" : " text-primary-dark"
               }  text-sm  font-medium `}
             >
               Javascript + SCSS + CSS Animations
